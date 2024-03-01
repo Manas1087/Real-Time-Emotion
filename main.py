@@ -10,7 +10,7 @@ classifier =load_model('model.h5')
 
 emotion_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']
 
-cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)
+cap = cv2.VideoCapture(1,cv2.CAP_DSHOW)
 if not (cap.isOpened()):
     print("Could not open video device")
 
