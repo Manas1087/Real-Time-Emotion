@@ -29,10 +29,3 @@ class EmotionDetector(VideoTransformerBase):
         return img
 
 webrtc_streamer(key="emotion", video_transformer_factory=EmotionDetector)
-```
-
----
-
-
----
-
