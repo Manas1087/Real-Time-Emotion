@@ -1,8 +1,6 @@
-streamlit==1.32.0
-opencv-python-headless==4.9.0.80
-tensorflow==2.12.0
-numpy==1.23.5
-streamlit-webrtc==0.47.1
-av==11.0.0
-h5py==3.8.0
-protobuf==3.20.3
+streamlit
+opencv-python-headless
+numpy
+streamlit-webrtc
+av
+tflite-runtime
